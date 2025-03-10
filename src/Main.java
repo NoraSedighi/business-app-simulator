@@ -31,8 +31,8 @@ public class Main {
             System.out.println("\nPayment History:");
             System.out.println();
             System.out.println("Andy's Payment History: ");
-            System.out.println("$122.5 : credit card" + "\n$85.5 : paypal payment");
             customer1.showPaymentHistory();
+            System.out.println("$122.5 : credit card" + "\n$85.5 : paypal payment");
             System.out.println();
             System.out.println("Blair's Payment History: ");
             customer2.showPaymentHistory();
